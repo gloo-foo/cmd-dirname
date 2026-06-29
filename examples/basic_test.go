@@ -3,8 +3,9 @@ package dirname_test
 import (
 	"fmt"
 
-	command "github.com/gloo-foo/cmd-dirname"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-dirname"
 )
 
 func ExampleDirname_basic() {

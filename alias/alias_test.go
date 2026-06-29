@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	dirname "github.com/gloo-foo/cmd-dirname/alias"
 	"github.com/gloo-foo/testable"
+
+	dirname "github.com/gloo-foo/cmd-dirname/alias"
 )
 
 // The alias package re-exports the constructor under an unprefixed name. A

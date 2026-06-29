@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-dirname"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-dirname"
 )
 
 func TestDirname_AbsolutePath(t *testing.T) {

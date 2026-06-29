@@ -20,7 +20,7 @@ const (
 // removed, the last component is dropped, and remaining trailing separators are
 // removed. Interior separators are preserved and "." / ".." are not resolved, so
 // "a//b//c" yields "a//b" and "/foo/.." yields "/foo".
-func Dirname(opts ...any) gloo.Command[[]byte, []byte] {
+func Dirname(_ ...any) gloo.Command[[]byte, []byte] {
 	return patterns.Map(func(line []byte) ([]byte, error) {
 		return dir(line), nil
 	})
